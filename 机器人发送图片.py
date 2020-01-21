@@ -9,8 +9,8 @@ import requests
 import hashlib
 import base64
 import json
-url = "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=ef234377-1cb5-4cb4-91fb-9bf60ce589a2"
-#url = "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=9ceafd23-3008-4f95-9f5e-c4e88b96994d"
+url = "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=ef234377-1cb5-4cb4-91fb-9bf60sssss"
+#url = "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=9ceafd23-3008-4f95-9f5e-c4e88wdadwa"
 headers = {"Content-Type": "application/json"}
 #发送图片
 #img_p = "./Export/DailyPaper_20200118.png"
@@ -46,3 +46,5 @@ data = {
 r = requests.post(url,headers=headers,json=data)
 
 print(r.text)
+
+#上面的自行替换成自己的机器人API接口，然后选择是发送图文还是图片
